@@ -16,9 +16,9 @@ class Home extends Component {
               <p className="customFadeInUp">
                 Hi, I'm Parker. I build and design web applications.
               </p>
-              <a href="agency-portfolio-4.html" className="customFadeInUp">
+              <Link to="/contact" className="customFadeInUp">
                 Get in Touch
-              </a>
+              </Link>
             </div>
           </section>
         </div>
