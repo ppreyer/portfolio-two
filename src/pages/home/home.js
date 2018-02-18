@@ -80,55 +80,6 @@ class Home extends Component {
                   <span style={spanStyle} className="pic" />
                 </a>
               </div>
-              <div class="index-mobile-features">
-                <div class="container">
-                  <header>
-                    <h3>Improve performance with our analytics</h3>
-                    <p>
-                      There aren't many settings to configure. Just upload your
-                      photos and the rest is taken care of automatically.
-                    </p>
-                  </header>
-                  <div class="features clearfix">
-                    <div class="feature">
-                      <div class="pic">
-                        <img
-                          src="images/icons/outline-camera.png"
-                          class="icon-camera"
-                        />
-                      </div>
-                      <p>Take pictures any given time</p>
-                    </div>
-                    <div class="feature">
-                      <div class="pic">
-                        <img
-                          src="images/icons/outline-user.png"
-                          class="icon-user"
-                        />
-                      </div>
-                      <p>Meet new awesome friends</p>
-                    </div>
-                    <div class="feature">
-                      <div class="pic">
-                        <img
-                          src="images/icons/outline-cloud.png"
-                          class="icon-cloud"
-                        />
-                      </div>
-                      <p>Keep all your files in sync</p>
-                    </div>
-                    <div class="feature">
-                      <div class="pic">
-                        <img
-                          src="images/icons/outline-mail.png"
-                          class="icon-mail"
-                        />
-                      </div>
-                      <p>Contact all your contacts directly</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
             </div>
           </div>
         </div>
