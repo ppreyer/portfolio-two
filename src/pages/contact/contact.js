@@ -25,10 +25,10 @@ class Contact extends Component {
     return (
       <div id="contactContainer">
         <div id="appContainer">
-          <div className="agency-contact-hero">
+          <div className="agency-alt-hero">
             <div className="container">
               <h3 className="customFadeInUp">
-                Questions, advice or just want to say hi?
+                Interested in working together?
               </h3>
             </div>
           </div>
@@ -37,9 +37,8 @@ class Contact extends Component {
             <div className="container">
               <p>
                 For all inquiries including new business, employment
-                opportunities or to hear more about our services, please get in
-                touch. We'd love to help you learn more about how customers are
-                using your products.
+                opportunities or to hear more about my projects, please get in
+                touch.
               </p>
             </div>
           </div>
