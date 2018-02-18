@@ -13,24 +13,19 @@ class Home extends Component {
         <div className="agency-hero">
           <section className="container">
             <div className="hero-text">
-              <h1 className="customFadeInUp">We create digital products</h1>
               <p className="customFadeInUp">
-                We specialise in designing interfaces, engaging experiences and
-                meaningful products
+                Hi, I'm Parker. I build and design web applications.
               </p>
               <a href="agency-portfolio-4.html" className="customFadeInUp">
-                See our work
+                Get in Touch
               </a>
             </div>
           </section>
         </div>
         <div className="agency-portfolio-hero">
           <section className="container">
-            <h1>Showcase of our latest projects</h1>
-            <p>
-              We believe in simple and efficient ways to grow a business by
-              being smart.
-            </p>
+            <h1>My Latest Projects</h1>
+            <p>Want to see more examples? Email me.</p>
           </section>
         </div>
 
@@ -85,68 +80,53 @@ class Home extends Component {
                   <span style={spanStyle} className="pic" />
                 </a>
               </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="index-features-files index-app clearfix">
-          <div className="container2">
-            <div className="container1">
-              <div className="col col-left">
-                <div className="features">
-                  <div className="feature clearfix">
-                    <div className="image">
-                      <img src="images/icons/features-icon-upload.png" />
+              <div class="index-mobile-features">
+                <div class="container">
+                  <header>
+                    <h3>Improve performance with our analytics</h3>
+                    <p>
+                      There aren't many settings to configure. Just upload your
+                      photos and the rest is taken care of automatically.
+                    </p>
+                  </header>
+                  <div class="features clearfix">
+                    <div class="feature">
+                      <div class="pic">
+                        <img
+                          src="images/icons/outline-camera.png"
+                          class="icon-camera"
+                        />
+                      </div>
+                      <p>Take pictures any given time</p>
                     </div>
-                    <div className="info">
-                      <strong>Improve your workflow today</strong>
-                      <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered.
-                      </p>
+                    <div class="feature">
+                      <div class="pic">
+                        <img
+                          src="images/icons/outline-user.png"
+                          class="icon-user"
+                        />
+                      </div>
+                      <p>Meet new awesome friends</p>
+                    </div>
+                    <div class="feature">
+                      <div class="pic">
+                        <img
+                          src="images/icons/outline-cloud.png"
+                          class="icon-cloud"
+                        />
+                      </div>
+                      <p>Keep all your files in sync</p>
+                    </div>
+                    <div class="feature">
+                      <div class="pic">
+                        <img
+                          src="images/icons/outline-mail.png"
+                          class="icon-mail"
+                        />
+                      </div>
+                      <p>Contact all your contacts directly</p>
                     </div>
                   </div>
-                  <div className="feature clearfix">
-                    <div className="image">
-                      <img src="images/icons/features-icon-earth.png" />
-                    </div>
-                    <div className="info">
-                      <strong>Your data in the cloud</strong>
-                      <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered.
-                      </p>
-                    </div>
-                  </div>
-                  <div className="feature clearfix">
-                    <div className="image">
-                      <img src="images/icons/features-icon-repeat.png" />
-                    </div>
-                    <div className="info">
-                      <strong>Easy to customize</strong>
-                      <p>
-                        There are many variations of passages of Lorem Ipsum
-                        available, but the majority have suffered.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col col-right">
-                <div className="info">
-                  <h3>Sync your contacts now</h3>
-                  <h4>
-                    Powerful dashboard that lets you control your site and
-                    portfolio.
-                  </h4>
-                  <p>
-                    Spacial has both a web app and an android app to make your
-                    website easy and always available. It offers you all the
-                    designs in collaboration with some smart people. Your
-                    projects will look great everywhere you go. Use new
-                    components that come included. It works in all browsers and
-                    your clients can pay instantly to everyone.
-                  </p>
                 </div>
               </div>
             </div>
